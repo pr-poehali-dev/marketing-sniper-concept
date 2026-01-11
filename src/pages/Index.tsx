@@ -46,8 +46,11 @@ const Index = () => {
             <Button 
               size="lg" 
               className="text-lg px-8 py-6 animate-pulse-glow font-semibold tracking-wide"
+              asChild
             >
-              → Обсудить задачу без презентаций
+              <a href="https://t.me/dinarikrarik" target="_blank" rel="noopener noreferrer">
+                → Обсудить задачу без презентаций
+              </a>
             </Button>
           </div>
         </div>
@@ -286,8 +289,11 @@ const Index = () => {
           <Button 
             size="lg" 
             className="text-xl px-12 py-8 animate-pulse-glow font-bold tracking-wide mb-4"
+            asChild
           >
-            → Обсудить задачу
+            <a href="https://t.me/dinarikrarik" target="_blank" rel="noopener noreferrer">
+              → Обсудить задачу
+            </a>
           </Button>
 
           <p className="text-sm text-muted-foreground italic mt-6">
